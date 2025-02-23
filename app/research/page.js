@@ -91,7 +91,7 @@ export default function Research() {
             fontSize: '1rem',
           },
         }}>
-          Building Construction Science Department, Mississippi State University
+          Department of Building Construction Science, Mississippi State University
         </h3>
         <p style={{ 
           fontSize: '1rem', 

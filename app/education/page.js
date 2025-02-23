@@ -41,7 +41,7 @@ export default function Education() {
           },
         }}>
           <li>Masters in Computer Science</li>
-          <li>GPA: 4.0</li>
+          
           <li>
             <strong>Related Coursework:</strong>
             <ul style={{ 
@@ -81,7 +81,7 @@ export default function Education() {
           },
         }}>
           <li>Bachelors in Computer Science</li>
-          <li>GPA: 3.66</li>
+          
           <li>
             <strong>Related Coursework:</strong>
             <ul style={{ 

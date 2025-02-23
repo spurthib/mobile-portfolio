@@ -82,6 +82,9 @@ export default function Experience() {
           <li>Developed and executed <strong>test plans</strong> and <strong>test cases</strong>.</li>
           <li>Identified bugs, monitored <strong>defect tracking systems</strong>, and performed tracking of non-testable software.</li>
         </ul>
+        <p style={{ fontSize: '1.2rem', marginTop: '10px', fontStyle: 'italic' }}>
+          <strong>Environment:</strong> <strong>SAP SD</strong>, <strong>SAP MM</strong>, <strong>SAP Customization & Automation</strong>
+        </p>
       </div>
 
       {/* Soniks Consulting Section */}

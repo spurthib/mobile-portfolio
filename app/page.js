@@ -21,7 +21,7 @@ function ContentBelowPic({ isMobile }) {
         lineHeight: "1.6", 
         color: "#000",
       }}>
-        I am a passionate <span style={{ fontWeight: "normal" }}>Software Engineer</span> with expertise in 
+        I am a <span style={{ fontWeight: "normal" }}>Software Engineer</span> with expertise in 
         <span style={{ fontWeight: "normal" }}> AI/ML</span>, 
         <span style={{ fontWeight: "normal" }}> Large Language Models (LLMs)</span>, and 
         <span style={{ fontWeight: "normal" }}> Cloud Computing</span>. 
