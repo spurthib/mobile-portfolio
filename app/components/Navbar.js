@@ -1,5 +1,11 @@
+"use client";
+
+import { useState } from 'react';
 import Link from 'next/link';
+
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <nav style={{ 
       display: 'flex', 
@@ -8,28 +14,54 @@ const Navbar = () => {
       padding: '10px 20px', 
       backgroundColor: '#333', 
       color: 'white',
-      flexWrap: 'wrap',
-      '@media (maxWidth: 768px)': { // Adjust styles for screens smaller than 768px
-        flexDirection: 'column',
-        alignItems: 'flex-start',
-        padding: '10px',
-      },
+      position: 'sticky', 
+      top: 0, 
+      zIndex: 1000,
     }}>
       <div style={{ fontWeight: 'bold', fontSize: '1.6rem' }}>Spurthi Buchireddy</div>
-      <div style={{ 
-        display: 'flex', 
-        gap: '10px', 
-        flexWrap: 'wrap',
-        '@media (maxWidth: 768px)': {
-          marginTop: '10px',
-        },
-      }}>
-        <Link href="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link>
-        <Link href="/experience" style={{ color: 'white', textDecoration: 'none' }}>Experience</Link>
-        <Link href="/research" style={{ color: 'white', textDecoration: 'none' }}>Research</Link>
-        <Link href="/education" style={{ color: 'white', textDecoration: 'none' }}>Education</Link>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        {/* Hamburger Icon */}
+        <div 
+          style={{ 
+            display: 'none', 
+            flexDirection: 'column', 
+            cursor: 'pointer',
+            '@media (max-width: 768px)': { 
+              display: 'flex', 
+            },
+          }} 
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <div style={{ width: '25px', height: '3px', backgroundColor: 'white', margin: '4px 0' }}></div>
+          <div style={{ width: '25px', height: '3px', backgroundColor: 'white', margin: '4px 0' }}></div>
+          <div style={{ width: '25px', height: '3px', backgroundColor: 'white', margin: '4px 0' }}></div>
+        </div>
+
+        {/* Navigation Links */}
+        <div 
+          style={{ 
+            display: 'flex', 
+            gap: '15px',
+            '@media (max-width: 768px)': { 
+              display: isOpen ? 'flex' : 'none', 
+              flexDirection: 'column', 
+              position: 'absolute', 
+              top: '60px', 
+              right: '20px', 
+              backgroundColor: '#333', 
+              padding: '10px', 
+              borderRadius: '5px',
+            },
+          }}
+        >
+          <Link href="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link>
+          <Link href="/experience" style={{ color: 'white', textDecoration: 'none' }}>Experience</Link>
+          <Link href="/research" style={{ color: 'white', textDecoration: 'none' }}>Research</Link>
+          <Link href="/education" style={{ color: 'white', textDecoration: 'none' }}>Education</Link>
+        </div>
       </div>
     </nav>
   );
 };
+
 export default Navbar;
