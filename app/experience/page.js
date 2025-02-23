@@ -14,7 +14,7 @@ export default function Experience() {
 
       {/* FDA Section */}
       <div style={{ marginBottom: '40px' }}>
-        <h2 style={{ fontSize: '2rem', marginBottom: '10px', '@media (max-width: 768px)': { fontSize: '1.5rem' } }}>Food & Drug Administration (FDA)</h2>
+        <h2 style={{ fontSize: '2rem', marginBottom: '10px', '@media (max-width: 768px)': { fontSize: '1.5rem' } }}>U.S. Food & Drug Administration (FDA)</h2>
         <p style={{ fontSize: '1.2rem', marginBottom: '20px', fontStyle: 'italic' }}>Jan 2024 – Present</p>
         <ul style={{ listStyleType: 'disc', marginLeft: '20px', '@media (max-width: 768px)': { marginLeft: '10px' } }}>
           <li>Explored and identified datasets for <strong>large language models (LLMs)</strong>, focusing on <strong>question-answering tasks</strong> for biomedical and scientific research.</li>
