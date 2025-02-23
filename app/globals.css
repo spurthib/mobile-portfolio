@@ -35,10 +35,11 @@ nav .navbar-logo {
   font-weight: bold;
   font-size: 1.6rem;
   color: white;
+  flex-grow: 1; 
 }
 
 nav .hamburger-icon {
-  display: none;
+  display: none; /* Hidden by default */
   flex-direction: column;
   cursor: pointer;
 }
@@ -55,6 +56,7 @@ nav .navbar-links {
   gap: 15px;
 }
 
+/* Style the links */
 nav a {
   color: white;
   text-decoration: none;
