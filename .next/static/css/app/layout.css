@@ -1,0 +1,42 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /*background-color: #dcd9d9;*/
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #f4f4f4; /* Light gray color on hover */
+}
+
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
