@@ -49,11 +49,11 @@ function ContentBelowPic({ isMobile }) {
           gap: "20px", 
           justifyContent: "center", 
         }}>
-          <li style={{ fontSize: "1rem", color: "#000" }}>AI/ML</li>
-          <li style={{ fontSize: "1rem", color: "#000" }}>Large Language Models (LLMs)</li>
-          <li style={{ fontSize: "1rem", color: "#000" }}>Cloud Computing</li>
-          <li style={{ fontSize: "1rem", color: "#000" }}>Python</li>
-          <li style={{ fontSize: "1rem", color: "#000" }}>AWS</li>
+          <li style={{ fontSize: "1rem", color: "#000", fontWeight: "bold" }}>AI/ML</li>
+          <li style={{ fontSize: "1rem", color: "#000" , fontWeight: "bold"}}>Large Language Models (LLMs)</li>
+          <li style={{ fontSize: "1rem", color: "#000" , fontWeight: "bold"}}>Cloud Computing</li>
+          <li style={{ fontSize: "1rem", color: "#000", fontWeight: "bold" }}>Python</li>
+          <li style={{ fontSize: "1rem", color: "#000" , fontWeight: "bold"}}>AWS</li>
         </ul>
       </div>
 

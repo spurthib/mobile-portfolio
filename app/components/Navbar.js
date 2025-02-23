@@ -26,9 +26,6 @@ const Navbar = () => {
             display: 'none', 
             flexDirection: 'column', 
             cursor: 'pointer',
-            '@media (max-width: 768px)': { 
-              display: 'flex', 
-            },
           }} 
           onClick={() => setIsOpen(!isOpen)}
         >
@@ -42,16 +39,6 @@ const Navbar = () => {
           style={{ 
             display: 'flex', 
             gap: '15px',
-            '@media (max-width: 768px)': { 
-              display: isOpen ? 'flex' : 'none', 
-              flexDirection: 'column', 
-              position: 'absolute', 
-              top: '60px', 
-              right: '20px', 
-              backgroundColor: '#333', 
-              padding: '10px', 
-              borderRadius: '5px',
-            },
           }}
         >
           <Link href="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link>
@@ -59,6 +46,26 @@ const Navbar = () => {
           <Link href="/research" style={{ color: 'white', textDecoration: 'none' }}>Research</Link>
           <Link href="/education" style={{ color: 'white', textDecoration: 'none' }}>Education</Link>
         </div>
+      </div>
+
+      {/* Mobile menu (only visible on small screens) */}
+      <div 
+        style={{ 
+          display: isOpen ? 'flex' : 'none', 
+          flexDirection: 'column', 
+          position: 'absolute', 
+          top: '60px', 
+          right: '20px', 
+          backgroundColor: '#333', 
+          padding: '10px', 
+          borderRadius: '5px',
+          zIndex: 1000,  // Ensure it stays on top
+        }}
+      >
+        <Link href="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link>
+        <Link href="/experience" style={{ color: 'white', textDecoration: 'none' }}>Experience</Link>
+        <Link href="/research" style={{ color: 'white', textDecoration: 'none' }}>Research</Link>
+        <Link href="/education" style={{ color: 'white', textDecoration: 'none' }}>Education</Link>
       </div>
     </nav>
   );

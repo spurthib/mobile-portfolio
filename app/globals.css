@@ -1,3 +1,4 @@
+/* Global styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -5,12 +6,53 @@ body {
   /*background-color: #dcd9d9;*/
 }
 
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Navbar styles */
 nav {
   display: flex;
   justify-content: flex-end; /* Align items to the right */
   padding: 10px 20px;
   background-color: #333;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav .navbar-logo {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: white;
+}
+
+nav .hamburger-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+nav .hamburger-icon div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+nav .navbar-links {
+  display: flex;
+  gap: 15px;
 }
 
 nav a {
@@ -24,16 +66,28 @@ nav a:hover {
   color: #f4f4f4; /* Light gray color on hover */
 }
 
+/* Mobile styling */
+@media (max-width: 768px) {
+  /* Show the hamburger icon on small screens */
+  nav .hamburger-icon {
+    display: flex;
+  }
 
-h1 {
-  color: #333;
-}
+  /* Hide the default navbar links */
+  nav .navbar-links {
+    display: none;
+  }
 
-p {
-  color: #666;
-}
-
-ul {
-  list-style-type: disc;
-  margin-left: 20px;
+  /* Show the navbar links when the menu is open */
+  nav .navbar-links.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
 }
