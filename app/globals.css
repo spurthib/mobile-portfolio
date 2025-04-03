@@ -92,4 +92,23 @@ nav a:hover {
     border-radius: 5px;
     z-index: 1000;
   }
+  /* Certifications mobile styles */
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .badge-image {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .certifications-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
 }

@@ -26,6 +26,7 @@ const Navbar = () => {
         <Link href="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link>
         <Link href="/experience" style={{ color: 'white', textDecoration: 'none' }}>Experience</Link>
         <Link href="/research" style={{ color: 'white', textDecoration: 'none' }}>Research</Link>
+        <Link href="/certifications" style={{ color: 'white', textDecoration: 'none' }}>Certifications</Link>
         <Link href="/education" style={{ color: 'white', textDecoration: 'none' }}>Education</Link>
       </div>
     </nav>
