@@ -17,54 +17,62 @@ export default function Experience() {
         <h2 style={{ fontSize: '2rem', marginBottom: '10px', '@media (max-width: 768px)': { fontSize: '1.5rem' } }}>U.S. Food & Drug Administration (FDA)</h2>
         <p style={{ fontSize: '1.2rem', marginBottom: '20px', fontStyle: 'italic' }}>Jan 2024 – Present</p>
         <ul style={{ listStyleType: 'disc', marginLeft: '20px', '@media (max-width: 768px)': { marginLeft: '10px' } }}>
-          <li>Explored and identified datasets for <strong>large language models (LLMs)</strong>, focusing on <strong>question-answering tasks</strong> for biomedical and scientific research.</li>
-          <li>Performed thorough <strong>data cleaning</strong> and <strong>preprocessing</strong> to prepare datasets for <strong>LLM-based tasks</strong>.</li>
-          <li>Tested various LLM models, including <strong>Llama 3</strong>, <strong>Llama 3.1</strong>, <strong>Llama 3.2</strong>, and <strong>Llama 3.3</strong>, to evaluate their performance in terms of <strong>response quality</strong>, <strong>accuracy</strong>, and <strong>response time</strong>.</li>
-          <li>Developed <strong>Python scripts</strong> for end-to-end processing, including dataset formatting, prompt creation, output generation, and performance comparison using metrics like <strong>Euclidean distance</strong> and <strong>cosine similarity</strong>.</li>
-          <li>Utilized <strong>Nomic Embed</strong> model for calculating embedding vectors to enhance similarity comparisons and improve response accuracy.</li>
-          <li>Configured and managed <strong>AWS CLI</strong> to interact with AWS services, automating tasks such as <strong>resource provisioning</strong>, <strong>deployments</strong>, and <strong>monitoring</strong> through command-line operations.</li>
-          <li>Leveraged <strong>AWS Bedrock</strong> to deploy pre-trained foundation models, enabling the development and scaling of customized <strong>AI/ML applications</strong> efficiently.</li>
-          <li>Leveraged <strong>aider-chat</strong>, an AI-driven coding assistant, to streamline software development processes, enhance code quality, and accelerate project timelines.</li>
-          <li>Designed and implemented a <strong>benchmarking system</strong> using <strong>SQLite3</strong> to store and analyze LLM-generated results.</li>
-          <li>Utilized <strong>Amazon S3</strong> to store data and integrated it with applications to facilitate <strong>file uploads</strong>, <strong>downloads</strong>, and <strong>sharing of assets</strong> in a cloud environment.</li>
-          <li>Used <strong>GitLab</strong> to manage and update changes in project code, ensuring <strong>version control</strong>, <strong>collaboration</strong>, and seamless integration of new features and bug fixes.</li>
-          <li>Conducted <strong>Q/A benchmarking</strong> to ensure accuracy and proper referencing in responses, compiling detailed evaluation reports.</li>
-          <li>Packaged applications using <strong>Docker</strong> with all necessary dependencies, optimized image sizes, and managed environments with <strong>Python virtual environments (venv)</strong> and <strong>requirements.txt</strong> for seamless deployment across <strong>AWS</strong> and <strong>HPC systems</strong>.</li>
-          <li>Containerized applications using <strong>Docker</strong> and deployed them on <strong>AWS servers</strong>, validating performance in a <strong>high-compute environment</strong>.</li>
-          <li>Created <strong>systemd service configurations</strong> to ensure high availability and automatic startup on system boot.</li>
-          <li>Automated critical processes, including <strong>system updates</strong> and <strong>log capture</strong>, to streamline operations, reduce manual effort, and enhance monitoring and troubleshooting.</li>
-          <li>Established a new <strong>pre-production environment</strong>, bridging the gap between development and production to enhance stability.</li>
-          <li>Monitored <strong>AWS EC2 instances</strong> to optimize resource utilization, ensure cost efficiency, and improve overall system performance.</li>
-          <li>Collaborated with cross-functional teams to secure <strong>GPU access</strong> and optimize <strong>AI model performance</strong>.</li>
-          <li>Provided ongoing support, documentation, and system enhancements to improve workflow efficiency and maintain system reliability.</li>
+          <li>Explored and identified datasets for large language models (LLMs), focusing on question-answering tasks in biomedical and scientific research.</li>
+          <li>Tested various LLMs including Llama and Mistral AI, evaluating response quality, accuracy, and latency.</li>
+          <li>Applied advanced statistical techniques to validate model performance and ensure robustness.</li>
+          <li>Developed and fine-tuned custom evaluation pipelines using metrics such as precision, recall, F1-score, BLEU, and ROUGE.</li>
+          <li>Conducted Q/A benchmarking to verify accuracy and citation validity, producing detailed evaluation reports.</li>
+          <li>Utilized Nomic Embed for generating embedding vectors to improve similarity comparisons and LLM response accuracy.</li>
+          <li>Performed comprehensive data cleaning and preprocessing to prepare datasets for LLM tasks.</li>
+          <li>Created Python scripts for end-to-end pipeline automation: dataset formatting, prompt generation, output handling, and metric-based comparisons (Euclidean distance, cosine similarity).</li>
+          <li>Conducted exploratory data analysis (EDA) using Pandas, NumPy, Matplotlib, and Seaborn to identify trends and anomalies in biomedical datasets.</li>
+          <li>Designed and implemented a benchmarking system using SQLite3 for storing and analyzing LLM-generated results.</li>
+          <li>Leveraged AWS Bedrock for deploying and scaling pre-trained foundation models in custom AI/ML applications.</li>
+          <li>Automated provisioning, deployment, and monitoring using AWS CLI for efficient infrastructure management.</li>
+          <li>Integrated Amazon S3 for data storage and cloud-based file sharing in ML workflows.</li>
+          <li>Monitored AWS EC2 instances to optimize usage, reduce cost, and enhance performance.</li>
+          <li>Containerized applications with Docker and deployed them on AWS servers for high-compute environments.</li>
+          <li>Built Docker images with minimal size and included all dependencies using <code>venv</code> and <code>requirements.txt</code> for smooth cross-platform deployment.</li>
+          <li>Created <code>systemd</code> service files for automatic application startup and high availability.</li>
+          <li>Automated system updates, log capturing, and key processes to enhance maintainability and reduce manual effort.</li>
+          <li>Integrated ML workflow observability using MLflow, Weights & Biases, and AWS CloudWatch for tracking experiments and performance.</li>
+          <li>Set up a new pre-production environment to bridge dev and prod, improving stability and QA.</li>
+          <li>Used GitLab for source control, CI/CD pipelines, and collaborative development.</li>
+          <li>Integrated aider-chat (AI coding assistant) to speed up dev cycles and improve code quality.</li>
+          <li>Collaborated with cross-functional teams to secure GPU resources and optimize LLM performance.</li>
+          <li>Provided technical documentation, system support, and ongoing enhancements to ensure reliability and improve workflows.</li>
         </ul>
         <p style={{ fontSize: '1.2rem', marginTop: '10px', fontStyle: 'italic' }}>
-          <strong>Environment:</strong> <strong>AWS</strong>, <strong>LLM</strong>, <strong>Bash</strong>, <strong>Python</strong>, <strong>GitLab</strong>, <strong>Docker</strong>, <strong>AWS Bedrock</strong>
+          <strong>Environment:</strong> <strong>AWS</strong>, <strong>AI/ML</strong>, <strong>LLM</strong>, <strong>Bash</strong>, <strong>Python</strong>, <strong>GitLab</strong>, <strong>Docker</strong>, <strong>AWS Bedrock</strong>
         </p>
       </div>
 
-      {/* LearnBeyond Consulting Section */}
+      {/* Protech Solutions Section */}
       <div style={{ marginBottom: '40px' }}>
-        <h2 style={{ fontSize: '2rem', marginBottom: '10px', '@media (max-width: 768px)': { fontSize: '1.5rem' } }}>LearnBeyond Consulting</h2>
+        <h2 style={{ fontSize: '2rem', marginBottom: '10px', '@media (max-width: 768px)': { fontSize: '1.5rem' } }}>Protech Solutions</h2>
         <p style={{ fontSize: '1.2rem', marginBottom: '20px', fontStyle: 'italic' }}>Dec 2021 – Jan 2024</p>
         <ul style={{ listStyleType: 'disc', marginLeft: '20px', '@media (max-width: 768px)': { marginLeft: '10px' } }}>
-          <li>Experience in distributed messaging systems like <strong>Apache Pulsar</strong> (similar to <strong>Apache Kafka</strong>) for building scalable, real-time <strong>data streaming applications</strong>.</li>
-          <li>Developing tooling and automation for <strong>environment</strong>, <strong>containers</strong>, and <strong>build & deployment pipelines</strong>.</li>
-          <li>Deep understanding of different messaging paradigms (<strong>pub/sub</strong>, <strong>queuing</strong>), as well as delivery models, <strong>quality-of-service</strong>, and <strong>fault-tolerance architectures</strong>.</li>
-          <li>Deep understanding of the <strong>Pulsar architecture</strong> along with interplay of architecture components: <strong>brokers</strong>, <strong>Zookeeper</strong>, <strong>producers/consumers</strong>, <strong>Bookkeeper</strong>, <strong>Streams</strong>.</li>
-          <li>Defined <strong>security groups</strong> which acted as virtual firewalls to control the incoming traffic onto one or more <strong>EC2 instances</strong>.</li>
-          <li>Implemented and maintained the monitoring and alerting of production and corporate servers/storage using <strong>AWS CloudWatch</strong>.</li>
-          <li>Developed scripts for <strong>build</strong>, <strong>deployment</strong>, <strong>maintenance</strong>, and related tasks using <strong>Jenkins</strong>, <strong>CloudFormation templates</strong>, and <strong>Bash</strong>.</li>
-          <li>Created and developed <strong>deployments</strong>, <strong>namespaces</strong>, <strong>Pods</strong>, <strong>Services</strong>, <strong>Health checks</strong>, and <strong>persistent volumes</strong> etc., for <strong>Kubernetes</strong>.</li>
-          <li>Responsible for <strong>Continuous Integration (CI)</strong> and <strong>Continuous Delivery (CD)</strong> process implementation using <strong>Jenkins Pipelines</strong> along with <strong>Python</strong> and <strong>Shell scripts</strong> to automate routine jobs.</li>
-          <li>Configured <strong>ServiceNow</strong> to receive instant notifications of any configuration changes in the cloud environment.</li>
-          <li>Created <strong>Datadog dashboards</strong> for various applications and monitored real-time and historical metrics.</li>
-          <li>Experience with <strong>Elasticsearch</strong>, <strong>Logstash</strong>, <strong>Prometheus</strong>, <strong>Kibana</strong> for centralized logging and storage logs with <strong>S3 Bucket</strong> using <strong>Lambda Function</strong>.</li>
-          <li>Troubleshoot and fix production and <strong>Pre-Production issues</strong> as and when required and document/communicate the resolution notes to other team members.</li>
-          <li>Participated in <strong>24x7 On-call rotation</strong>.</li>
+          <li>Collaborated with Data Engineers and operations team to implement ETL processes and ensure data availability for analysis.</li>
+          <li>Wrote and optimized SQL queries to extract, transform, and load data tailored to analytical requirements.</li>
+          <li>Performed preliminary data analysis using descriptive statistics and handled anomalies such as removing duplicates and imputing missing values.</li>
+          <li>Worked on data cleaning and reshaping, generating segmented subsets using NumPy and pandas libraries in Python.</li>
+          <li>Created scripts and integrated systems including Python, SQL, and R to analyze large volumes of current and historical data.</li>
+          <li>Developed analytical approaches to answer high-level business questions and provide actionable recommendations.</li>
+          <li>Developed and implemented predictive models using machine learning algorithms such as linear regression, classification, and Random Forest.</li>
+          <li>Evaluated model performance using F-score, accuracy, and precision metrics.</li>
+          <li>Leveraged AWS services like S3, EC2, and SageMaker to prepare data, build, deploy, and optimize predictive models.</li>
+          <li>Utilized AWS EC2 instances for model training and deployment, optimizing compute resources to handle high computational requirements during model development and testing.</li>
+          <li>Integrated AWS Lambda to automate real-time data processing tasks, improving system responsiveness and reducing manual intervention.</li>
+          <li>Worked with the NLTK library for natural language processing and pattern recognition in textual data.</li>
+          <li>Automated recurring data analysis tasks and reporting pipelines using Python scripts, reducing manual workload and improving efficiency.</li>
+          <li>Ensured data integrity and compliance with data governance policies, supporting initiatives related to data privacy and security.</li>
+          <li>Managed version control and collaborated on code with team members using GitLab repositories, ensuring smooth collaboration and code integrity.</li>
+          <li>Implemented continuous integration (CI) pipelines in GitLab CI/CD to automate testing, model validation, and deployment, increasing code deployment efficiency and reducing errors.</li>
+          <li>Documented project requirements and work plans in Confluence and managed progress through Jira Sprints.</li>
+          <li>Routinely presented metrics and outcomes of analysis to team members and management to support data-driven decision-making.</li>
         </ul>
         <p style={{ fontSize: '1.2rem', marginTop: '10px', fontStyle: 'italic' }}>
-          <strong>Environment:</strong> <strong>Jenkins</strong>, <strong>Pulsar</strong>, <strong>Kafka</strong>, <strong>AWS</strong>, <strong>Grafana</strong>, <strong>ULM</strong>, <strong>Bash</strong>, <strong>Python</strong>, <strong>GitLab</strong>
+          <strong>Environment:</strong> <strong>AWS</strong>, <strong>Python</strong>, <strong>SQL</strong>, <strong>NumPy</strong>, <strong>Pandas</strong>, <strong>NLTK</strong>, <strong>Bash</strong>, <strong>GitLab</strong>
         </p>
       </div>
 
@@ -73,17 +81,22 @@ export default function Experience() {
         <h2 style={{ fontSize: '2rem', marginBottom: '10px', '@media (max-width: 768px)': { fontSize: '1.5rem' } }}>Accenture</h2>
         <p style={{ fontSize: '1.2rem', marginBottom: '20px', fontStyle: 'italic' }}>Jan 2014 – July 2018</p>
         <ul style={{ listStyleType: 'disc', marginLeft: '20px', '@media (max-width: 768px)': { marginLeft: '10px' } }}>
-          <li>Worked as a <strong>Functional SAP Consultant</strong>.</li>
-          <li>Handled <strong>SAP SD (Sales & Distribution)</strong> and <strong>SAP MM (Material Management)</strong> modules.</li>
-          <li>Automated the customizations using <strong>LSMW tool</strong>.</li>
-          <li>Expert in <strong>Shipping Point Determination</strong>, <strong>Route Determination</strong>, <strong>Transport and delivery scheduling</strong>, <strong>Backward delivery scheduling</strong>, <strong>Partial and Complete delivery</strong>.</li>
-          <li>Worked on <strong>MTS (Make-to-Stock)</strong>, <strong>MTO (Make-to-Order)</strong>, <strong>Make-to-Order for Configurable Material</strong>, <strong>Stock Requirement/ MRP Lists</strong>, <strong>variant configuration</strong>, <strong>super BOMs</strong>, <strong>phantom items</strong>.</li>
-          <li>Improved productivity by solving <strong>change Requests</strong> within <strong>Turn Around time</strong>.</li>
-          <li>Developed and executed <strong>test plans</strong> and <strong>test cases</strong>.</li>
-          <li>Identified bugs, monitored <strong>defect tracking systems</strong>, and performed tracking of non-testable software.</li>
+          <li>Created and analyzed business requirements to design and implement technical data solutions that align with organizational goals.</li>
+          <li>Designed and maintained MySQL databases, creating user-defined functions and stored procedures to automate daily reporting tasks.</li>
+          <li>Built ETL pipelines to retrieve data from NoSQL databases and load aggregated data into the analytical platform for analysis.</li>
+          <li>Wrote and executed SQL scripts to implement database changes, including table updates, view creation, and the addition of stored procedures.</li>
+          <li>Conducted reviews of database objects (tables, views) to assess the current design, identify discrepancies, and provide recommendations for optimization.</li>
+          <li>Performed performance tuning and optimization of SQL scripts and stored procedures to improve data processing efficiency and overall database performance.</li>
+          <li>Analyzed database discrepancies and synchronized development, pre-production, and production environments with accurate data models.</li>
+          <li>Developed and maintained various SQL scripts and job scripts to handle complex transactional and reporting tasks, ensuring data formatting as needed.</li>
+          <li>Monitored and maintained multiple automated data extraction and daily job processes, ensuring seamless data workflows.</li>
+          <li>Created ad-hoc SQL queries to generate custom reports, trend analysis, and customer-specific reports.</li>
+          <li>Manipulated data and calculated key metrics for reporting using MySQL queries and MS Excel, facilitating data-driven decision-making.</li>
+          <li>Debugged and resolved execution errors using data logs, trace statistics, and thorough examination of source and target data.</li>
+          <li>Created and scheduled Unix cron jobs to periodically load flat files into Oracle databases, ensuring timely data availability.</li>
         </ul>
         <p style={{ fontSize: '1.2rem', marginTop: '10px', fontStyle: 'italic' }}>
-          <strong>Environment:</strong> <strong>SAP SD</strong>, <strong>SAP MM</strong>, <strong>SAP Customization & Automation</strong>
+          <strong>Environment:</strong> <strong>SQL</strong>, <strong>Unix</strong>, <strong>Stored procedures</strong>, <strong>ETL</strong>
         </p>
       </div>
 
@@ -92,21 +105,17 @@ export default function Experience() {
         <h2 style={{ fontSize: '2rem', marginBottom: '10px', '@media (max-width: 768px)': { fontSize: '1.5rem' } }}>Soniks Consulting</h2>
         <p style={{ fontSize: '1.2rem', marginBottom: '20px', fontStyle: 'italic' }}>June 2013 – Dec 2013</p>
         <ul style={{ listStyleType: 'disc', marginLeft: '20px', '@media (max-width: 768px)': { marginLeft: '10px' } }}>
-          <li>Performed day-to-day jobs such as monitoring <strong>log files</strong>, writing, and running the scripts to automatically watch the resources, <strong>CPU</strong>, <strong>memory</strong>.</li>
-          <li>Created users and groups for certain departments. Configured <strong>DHCP</strong> for dynamic IP scheduling.</li>
-          <li>Written <strong>shell scripts</strong> for automation of jobs, system monitoring, and error reporting.</li>
-          <li>Managed <strong>SVN repositories</strong> for branching and merging.</li>
-          <li>Used <strong>putty</strong> for reading, writing, executing the <strong>PERL/Shell scripts</strong>.</li>
-          <li>Performed <strong>User acceptance testing (UAT)</strong> to all the test scenarios before intimating to the business.</li>
-          <li>Worked with <strong>ServiceNow</strong> tool to handle <strong>change requests</strong> and <strong>incidents reported</strong>.</li>
-          <li>Monitored servers and escalated <strong>emergency technical issues</strong> beyond scope to maintain optimum up-time.</li>
-          <li>Strong scripting skills (<strong>Python</strong>, <strong>bash</strong>) to design and implement automation within the infrastructure.</li>
-          <li>Provided <strong>after-hours on-call support</strong> by participating in the <strong>on-call rotation</strong>.</li>
-          <li>Prepared various <strong>statistical</strong> and <strong>financial reports</strong> using <strong>MS Excel</strong>.</li>
-          <li>Strong <strong>verbal</strong> and <strong>written communication skills</strong>, and an ability to work on project teams, with stakeholders, and across departments.</li>
+          <li>Assisted in gathering and analyzing business requirements to create data-driven insights for decision-making.</li>
+          <li>Cleaned, transformed, and organized data from various sources to prepare it for analysis using Excel and SQL.</li>
+          <li>Performed basic data analysis using descriptive statistics, identifying trends and patterns to support business operations.</li>
+          <li>Wrote simple SQL queries to extract data from databases and performed data manipulation tasks for reporting purposes.</li>
+          <li>Developed and maintained basic reports and dashboards to track key performance indicators (KPIs) and business metrics.</li>
+          <li>Participated in team meetings to discuss ongoing projects, provide progress updates, and receive feedback from senior data analysts.</li>
+          <li>Prepared various statistical and financial reports using MS Excel.</li>
+          <li>Strong verbal and written communication skills, and an ability to work on project teams, with stakeholders, and across departments.</li>
         </ul>
         <p style={{ fontSize: '1.2rem', marginTop: '10px', fontStyle: 'italic' }}>
-          <strong>Environment:</strong> <strong>Linux</strong>, <strong>Bash script</strong>, <strong>MS Office</strong>, <strong>SVN</strong>
+          <strong>Environment:</strong> <strong>Linux</strong>, <strong>Bash script</strong>, <strong>MS Office</strong>, <strong>SQL</strong>
         </p>
       </div>
     </div>
