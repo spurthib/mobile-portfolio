@@ -24,6 +24,7 @@ const Navbar = () => {
       {/* Navbar Links */}
       <div className={`navbar-links ${isOpen ? 'open' : ''}`}>
         <Link href="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link>
+        <Link href="/skills" style={{ color: 'white', textDecoration: 'none' }}>Skills</Link>
         <Link href="/experience" style={{ color: 'white', textDecoration: 'none' }}>Experience</Link>
         <Link href="/research" style={{ color: 'white', textDecoration: 'none' }}>Research</Link>
         <Link href="/certifications" style={{ color: 'white', textDecoration: 'none' }}>Certifications</Link>

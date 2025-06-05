@@ -16,31 +16,30 @@ export default function Experience() {
       <div style={{ marginBottom: '40px' }}>
         <h2 style={{ fontSize: '2rem', marginBottom: '10px', '@media (max-width: 768px)': { fontSize: '1.5rem' } }}>U.S. Food & Drug Administration (FDA)</h2>
         <p style={{ fontSize: '1.2rem', marginBottom: '20px', fontStyle: 'italic' }}>Jan 2024 – Present</p>
-        <ul style={{ listStyleType: 'disc', marginLeft: '20px', '@media (max-width: 768px)': { marginLeft: '10px' } }}>
-          <li>Explored and identified datasets for large language models (LLMs), focusing on question-answering tasks in biomedical and scientific research.</li>
-          <li>Tested various LLMs including Llama and Mistral AI, evaluating response quality, accuracy, and latency.</li>
-          <li>Applied advanced statistical techniques to validate model performance and ensure robustness.</li>
-          <li>Developed and fine-tuned custom evaluation pipelines using metrics such as precision, recall, F1-score, BLEU, and ROUGE.</li>
-          <li>Conducted Q/A benchmarking to verify accuracy and citation validity, producing detailed evaluation reports.</li>
-          <li>Utilized Nomic Embed for generating embedding vectors to improve similarity comparisons and LLM response accuracy.</li>
-          <li>Performed comprehensive data cleaning and preprocessing to prepare datasets for LLM tasks.</li>
-          <li>Created Python scripts for end-to-end pipeline automation: dataset formatting, prompt generation, output handling, and metric-based comparisons (Euclidean distance, cosine similarity).</li>
-          <li>Conducted exploratory data analysis (EDA) using Pandas, NumPy, Matplotlib, and Seaborn to identify trends and anomalies in biomedical datasets.</li>
-          <li>Designed and implemented a benchmarking system using SQLite3 for storing and analyzing LLM-generated results.</li>
-          <li>Leveraged AWS Bedrock for deploying and scaling pre-trained foundation models in custom AI/ML applications.</li>
-          <li>Automated provisioning, deployment, and monitoring using AWS CLI for efficient infrastructure management.</li>
-          <li>Integrated Amazon S3 for data storage and cloud-based file sharing in ML workflows.</li>
-          <li>Monitored AWS EC2 instances to optimize usage, reduce cost, and enhance performance.</li>
-          <li>Containerized applications with Docker and deployed them on AWS servers for high-compute environments.</li>
-          <li>Built Docker images with minimal size and included all dependencies using <code>venv</code> and <code>requirements.txt</code> for smooth cross-platform deployment.</li>
-          <li>Created <code>systemd</code> service files for automatic application startup and high availability.</li>
-          <li>Automated system updates, log capturing, and key processes to enhance maintainability and reduce manual effort.</li>
-          <li>Integrated ML workflow observability using MLflow, Weights & Biases, and AWS CloudWatch for tracking experiments and performance.</li>
-          <li>Set up a new pre-production environment to bridge dev and prod, improving stability and QA.</li>
-          <li>Used GitLab for source control, CI/CD pipelines, and collaborative development.</li>
-          <li>Integrated aider-chat (AI coding assistant) to speed up dev cycles and improve code quality.</li>
-          <li>Collaborated with cross-functional teams to secure GPU resources and optimize LLM performance.</li>
-          <li>Provided technical documentation, system support, and ongoing enhancements to ensure reliability and improve workflows.</li>
+        <ul style={{ listStyleType: 'disc', marginLeft: '20px' }}>
+          <li>Built a Retrieval-Augmented Generation (RAG) pipeline using LangChain to enable accurate, context-aware question answering from internal document repositories.</li>
+          <li>Leveraged Nomic Embed models to generate high-quality vector embeddings for semantic search and similarity comparisons.</li>
+          <li>Used MongoDB to store raw documents and metadata, and ChromaDB to persist and query vector embeddings for real-time retrieval.</li>
+          <li>Designed robust chunking strategies to split documents contextually before embedding, improving retrieval precision and LLM performance.</li>
+          <li>Automated the end-to-end RAG pipeline in Python, from document ingestion and chunking to embedding generation and similarity-based retrieval.</li>
+          <li>Benchmarked LLMs (LLaMA 3.x, MistralAI) across three datasets, improving QA response accuracy by 15% and reducing latency by 25% through custom prompt strategies.</li>
+          <li>Explored and identified biomedical datasets for LLM-based question-answering tasks, aligning data sources with model capabilities.</li>
+          <li>Led data cleaning and preprocessing efforts for biomedical datasets, ensuring high-quality, structured input to improve model training and inference.</li>
+          <li>Automated LLM data pipelines using Python and AWS CLI, reducing preprocessing time by 40% and accelerating model evaluation cycles.</li>
+          <li>Deployed pre-trained foundation models using AWS Bedrock, reducing deployment time by 20% and enabling scalable, low-latency AI applications.</li>
+          <li>Packaged and containerized applications using Docker, optimized image sizes, and managed dependencies with virtual environments and requirements.txt.</li>
+          <li>Deployed containerized apps on AWS EC2 and validated performance in high-compute environments with GPU acceleration.</li>
+          <li>Engineered production-ready systemd services to ensure 99.9% uptime and automatic recovery after system reboots.</li>
+          <li>Automated key operational tasks including system updates, log capture, and monitoring to streamline system management and reduce manual effort.</li>
+          <li>Established a new pre-production environment to bridge development and production workflows, improving deployment stability.</li>
+          <li>Designed and implemented a benchmarking system using SQLite3 to track and analyze LLM outputs, supporting data-driven prompt tuning.</li>
+          <li>Led QA benchmarking initiatives, improving reference accuracy by 20% and delivering monthly evaluation reports to guide LLM enhancements.</li>
+          <li>Utilized Amazon S3 for storing and accessing data, enabling efficient uploads, downloads, and integration with cloud-based pipelines.</li>
+          <li>Configured and managed AWS CLI to automate resource provisioning, deployments, and system monitoring.</li>
+          <li>Used GitLab for source control and CI/CD pipelines, ensuring efficient code collaboration, change tracking, and release management.</li>
+          <li>Leveraged aider-chat, an AI-powered coding assistant, to accelerate development, improve code quality, and reduce debugging time.</li>
+          <li>Collaborated with cross-functional teams to secure GPU access and optimize AI model performance across distributed infrastructure.</li>
+          <li>Provided ongoing documentation, support, and system enhancements to maintain reliability and ensure operational efficiency.</li>
         </ul>
         <p style={{ fontSize: '1.2rem', marginTop: '10px', fontStyle: 'italic' }}>
           <strong>Environment:</strong> <strong>AWS</strong>, <strong>AI/ML</strong>, <strong>LLM</strong>, <strong>Bash</strong>, <strong>Python</strong>, <strong>GitLab</strong>, <strong>Docker</strong>, <strong>AWS Bedrock</strong>
